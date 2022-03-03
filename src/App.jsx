@@ -25,7 +25,7 @@ function App() {
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error: {error}</p>
 
-  const {films} = data?.allFilms
+  const {films} = data?.allFilms;
 
   return (
     <div>
